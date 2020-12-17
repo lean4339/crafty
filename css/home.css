@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/bg-2.png");
+}
+div.home{
+  
+}
+div.home header{
+    background-color: orangered;
+    margin-bottom: .2rem;
+    padding: .1rem;
+    
+    
+}
+div.home header ul{
+    list-style: none;
+    padding: 0;
+
+}
+div.home header ul.derecha{
+    padding: 0;
+}
+div.home header ul li{
+    padding: .2rem;
+    text-align: start;
+}
+div.home header ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+div.home main{
+    background-color: white;
+}
+div.home main section{
+    position: relative;
+    margin: .5rem 0;
+}
+div.home main section img{
+    width: 100%;
+}
+div.home main section .icon{
+    width: 60px;
+    position: absolute;
+    right: 20px;
+}
+div.home main section h2{
+    text-transform: capitalize;
+    margin: .2rem 0;
+}
+div.home main section p{
+    margin-bottom: .2rem;
+}
+div.home main section button{
+    padding: .2rem;
+    width: 25%;
+    background-color: orangered;
+    border-style: none;
+}
+div.home main section button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div.home aside{
+
+}
+div.home aside section h2{
+    background-color: white;
+    padding: .2rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    border: 1px solid grey;
+}
+div.home aside section article{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-left: 1px solid rgb(202, 200, 200);
+    border-right: 1px solid rgb(202, 200, 200);
+    border-top: 1px solid rgb(202, 200, 200);
+    background-color: white;
+    
+
+}
+div.home aside section article.ultimo{
+    border-bottom:1px solid rgb(202, 200, 200) ;
+}
+div.home aside section article .icon{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+}
+div.home aside section article img{
+    float: left;
+    margin: 10px auto;
+}
+div.home aside section article a{
+    float: left;
+    text-decoration: none;
+    padding: 2rem .5rem;
+    color: black;
+
+}
+div.home aside section.publicidad{
+    padding: 0px;
+}
+div.home aside section.publicidad article{
+   background-color: white;
+    
+}
+div.home aside section.publicidad div{
+    background-color: white;
+    width: 320px;
+
+
+}
+div.home aside section.publicidad article.primero{
+   border: 1px solid rgb(202, 200, 200);
+   border-bottom: none;
+   
+   
+}
+div.home aside section.publicidad article.segundo{
+   border: 1px solid rgb(202, 200, 200);
+   border-top: none;
+   
+}
+div.home aside section.publicidad article img{
+   width: 300px;
+   height: 250px;
+   margin: 20px 30px;
+}
+@media (min-width: 500px) and (max-width: 1024px) {
+    body{
+        height: 100vh;
+    }
+    div.home main{
+        overflow: hidden;
+    }
+    div.home main section{
+        width: 50%;
+        float: left;
+        padding: 1rem;
+    }
+    div.home aside section{
+        overflow: hidden;
+    }
+    div.home aside section article{
+        float:left;
+        width: 50%;
+        border-style: none;
+    }
+}
+ @media (min-width: 1024px){
+
+ 
+ *{
+     margin: 0 auto;
+    box-sizing: border-box;
+ }
+ /* 
+ forma de declarar variables en css */
+ :root{
+     --colorAnaranjado : orangered;
+ }
+ body{
+     background-image: url(../img/bg-2.png);
+ }
+ div.home{
+     width: 1140px;
+     overflow: hidden;
+     margin-bottom: 10px;
+     position: relative;
+     
+ }
+ div.home header{
+     width: 100%;
+     background-color: var(--colorAnaranjado);
+     overflow: hidden;
+     padding: 5px;
+     margin-bottom: 20px;
+     font-size: 17px;
+     position: fixed;
+     z-index: 1;
+     width: 1140px;
+ }
+ div.home header img{
+     float: left;
+    
+ }
+ div.home header nav{
+     overflow: hidden;
+     float: left;
+     padding: 5px;
+     width: 90%;
+ }
+ div.home header nav ul{
+     list-style: none;
+     padding: 0px;
+     float: left;
+     overflow: hidden;
+     padding: 5px;
+
+     
+ }
+div.home header nav ul.derecha{
+     float:right;
+     padding: 5px;    
+    
+ }
+ div.home header nav ul li{
+     float:left;
+     margin: 0 10px;
+     transition: 1s;
+     padding: 0;
+
+ }
+ div.home header nav ul li:hover{
+     box-shadow: 0 5px 0 0 salmon;
+ }
+ div.home header nav ul li a{
+     text-decoration: none;
+     color: white;
+
+ }
+ div.home main{
+     float: left;
+     background-color: white;
+     width: 800px;
+     padding: 10px 0;
+     margin-top: 70px;
+ }
+ div.home main section{
+     width: 380px;
+     float: left;
+     margin: 0 10px;
+     margin-bottom: 20px;
+     position: relative;
+
+ }
+ div.home main section .icon{
+    position:absolute;
+    width: 60px;
+    right: 15px;
+ }
+ div.home main section img{
+     width: 100%;
+     margin-bottom: 5px;
+
+ }
+ div.home main section h2{
+     text-transform: capitalize;
+     font-weight: bold;
+ }
+ div.home main section p{
+     text-align: justify;
+     margin: 8px 0;
+ }
+ div.home main section button{
+     width: 25%;
+     padding: 5px;
+     background-color:rgb(233, 76, 14);
+     border-style: none;
+     transition: 1s;
+
+ }
+ div.home main section button:hover{
+     background-color: salmon;
+ }
+ div.home main section button a{
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+ }
+
+ div.home aside{
+     width: 320px;
+     float: left;
+     margin-left: 20px;
+     margin-top: 53px;
+ }
+ div.home aside section{
+    margin-bottom: 20px;
+ }
+ div.home aside section h2{
+     margin-bottom: 15px; 
+     text-transform: capitalize;
+     padding: 6px;
+     border: 1px solid rgb(202, 200, 200);
+     font-weight: bold;
+     background-color: white;
+ 
+
+ }
+ div.home aside section article{
+     padding: 5px;
+     overflow: hidden;
+     background-color: white;
+     border-left: 1px solid rgb(202, 200, 200);
+     border-right: 1px solid rgb(202, 200, 200);
+     border-top: 1px solid rgb(202, 200, 200);
+     position: relative;
+     
+
+ }
+ div.home aside section article .icon{
+    position: absolute;
+    width: 40px;
+    right: 5px;
+    top:0;
+ }
+ div.home aside section article.ultimo{
+     border-bottom: 1px solid rgb(202, 200, 200);
+ }
+ div.home aside section article img{
+     width: 40%;
+     float: left;
+ }
+ div.home aside section article p{
+     float: left;
+     padding: 40px 0px ;
+    
+ }
+ div.home aside section article a{
+     text-decoration: none;
+     text-transform: capitalize;
+     text-align: left;
+     color: black ;
+     display: inline-block;
+     width: 60%;
+     padding: 30px 10px;
+     
+     
+
+    
+    
+ }
+ div.home aside section.publicidad{
+     padding: 0px;
+}
+ div.home aside section.publicidad article{
+    background-color: white;
+     
+ }
+ div.home aside section.publicidad div{
+     background-color: white;
+     width: 320px;
+
+
+ }
+ div.home aside section.publicidad article.primero{
+    border: 1px solid rgb(202, 200, 200);
+    border-bottom: none;
+    
+    
+    
+ }
+ div.home aside section.publicidad article.segundo{
+    border: 1px solid rgb(202, 200, 200);
+    border-top: none;
+    
+    
+ }
+ div.home aside section.publicidad article img{
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    
+ }
+ 
+}

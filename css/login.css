@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto;
+   box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg-2.png);
+}
+div.login{
+    width: 1140px;
+    overflow: hidden;
+}
+div.login header{
+    width: 100%;
+    background-color: rgb(233, 76, 14);
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+div.login header img{
+    float: left;
+   
+}
+div.login header nav{
+    overflow: hidden;
+    float: left;
+    padding: 5px;
+}
+div.login header nav ul{
+    list-style: none;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+
+    
+}
+div.login header nav ul.derecha{
+    float:right;
+    margin-left: 550px;
+   
+}
+div.login header nav ul li{
+    float:left;
+    margin: 0 10px;
+    transition: 1s;
+
+}
+div.login header nav ul li:hover{
+    box-shadow: 0 5px 0 0 salmon;
+}
+div.login header nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+div.login main{
+    width: 350px;
+    text-transform: capitalize;
+    padding: 5px;
+}
+div.login main h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+div.login main form div{
+    
+}
+div.login main form div label{
+}
+div.login main form div input{
+    display: block;
+    margin-left: 0%;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    transition: 1s;
+}
+div.login main form div input:hover{
+    background-color:rgb(241, 171, 143) ;
+    border-style: none;
+    
+}
+div.login main form div input ::placeholder{
+    color: white;
+}
+div.login main form div.recordarme-contenedor{
+    text-align: end;
+    padding: 5px;
+}
+div.login main form div.recordarme-contenedor input{
+    display: inline;
+    width: 12px;
+    
+}
+div.login main form p{
+    text-transform: none;
+    color: red;
+    margin-bottom: 10px;
+}
+div.login main form button{
+    background-color: rgb(7, 124, 226);
+    border-radius: 10px;
+    border-style: none;
+    width: 35%;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    div.login{
+        width: 100%;
+    }
+    
+    div.login header nav{
+        width: 100%;
+        padding: 0;
+    }
+    div.login header nav ul{
+        width: 100%;
+        padding: 0;
+    }
+    div.login header nav ul li{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media (min-width: 700px) and (max-width: 1024px){
+    div.login{
+        width: 100%;
+    }
+    div.login header nav{
+        width: 100%;
+        padding: 0;
+    }
+    div.login header nav ul{
+        width: 100%;
+        padding: 0;
+    }
+    div.login header nav ul li{
+        width: 100%;
+        padding: 0;
+    }
+}

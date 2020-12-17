@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <div class="registro">
+    <header class="">
+        <img src="img/logo.png" alt="hola soy un logo" class="logo">
+        <nav>
+            
+            <ul>
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Computadoras</a></li>
+            </ul>
+       
+        
+            <ul class="derecha">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>   
+        
+    </header>
+    <main>
+        <h1>registrate</h1>
+        <div class="contenedor-form">
+            <form action="registrado.html" method="POST">
+                <div class="input__nombre input">
+                    <label for="nombre">nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required>
+                    <p>obligatorio</p>
+                </div>
+                
+                <div class="input__email input">
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresá tu email" required>
+                    <p>obligatorio</p>
+                </div>
+                 
+                <div class="input__contraseña input">
+                    <label for="contraseña">password</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                    <p>obligatorio</p>
+                </div>
+                
+                <div class="pais">
+                    <h2>País de nacimiento</h2>
+                    <select name="pais" id="pais">
+                        <option value="1">argentina</option>
+                        <option value="2">brasil</option>
+                        <option value="3">uruguay</option>
+                        <option value="4">chile</option>
+                    </select>
+                </div>
+                <p>obligatorio</p>
+                <div class="genero-contenedor">
+                    <h2>género</h2>
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="masculino">masculino</label>
+                    <input type="radio" name="genero" id="femenino">
+                    <label for="femenino">femenino</label>
+                    <input type="radio" name="genero" id="noDecirlo">
+                    <label for="noDecirlo">prefiero no decirlo</label>
+                 
+                </div>
+                <div class="hobbies__contenedor">
+                    <h2>hobbies</h2>
+                    <input type="checkbox" name="hobbies" id="guitarra">
+                    <label for="guitarra">guitarra</label>
+                    <input type="checkbox" name="hobbies" id="futbol">
+                    <label for="futbol">fútbol</label>
+                    <input type="checkbox" name="hobbies" id="tenis">
+                    <label for="tenis">tenis</label>
+                    <input type="checkbox" name="hobbies" id="programacion">
+                    <label for="programacion">programación</label>
+                </div>
+                <div class="comentarios__contenedor">
+                    <h2>Dejános tus comentarios</h2>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="terminos__contenedor">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto terminos y condiciones</label>
+                </div>
+                <div class="botones__contenedor">
+                    <button type="submit">registrarme</button>
+                    <button type="reset">cancelar</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    </div>
+</body>
+</html>

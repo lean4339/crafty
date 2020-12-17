@@ -1,0 +1,156 @@
+*{
+    margin: 0 auto;
+   box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg-2.png);
+}
+div.registro{
+    width: 1140px;
+    overflow: hidden;
+}
+div.registro header{
+    width: 100%;
+    background-color: rgb(233, 76, 14);
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+div.registro header img{
+    float: left;
+   
+}
+div.registro header nav{
+    overflow: hidden;
+    float: left;
+    padding: 5px;
+}
+div.registro header nav ul{
+    list-style: none;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+
+    
+}
+div.registro header nav ul.derecha{
+    float:right;
+    margin-left: 550px;
+   
+}
+div.registro header nav ul li{
+    float:left;
+    margin: 0 10px;
+    transition: 1s;
+
+}
+div.registro header nav ul li:hover{
+    box-shadow: 0 5px 0 0 salmon;
+}
+div.registro header nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+div.registro main{
+    width: 350px;
+}
+div.registro main h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+div.registro main div form div.input{
+    margin-bottom: 1rem;
+}
+div.registro main div form div.input input{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: .5rem;
+    outline: none;
+}
+div.registro main div form div.input label{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+div.registro main div form div.input p{
+    color: red;
+    text-transform: capitalize;
+}
+div.registro main div form div h2{
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+div.registro main div form div.pais select{
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+
+}
+div.registro main div form p{
+    color:red;
+    text-transform: capitalize;
+
+}
+div.registro main div form div label{
+    text-transform: capitalize;
+}
+div.registro main div form div textarea{
+    resize: none;
+    width: 350px;
+    margin-bottom: 20px;
+    outline: none;
+}
+div.registro main div form div button{
+    background-color: rgb(7, 124, 226);
+    border-style: none;
+    border-radius: 10px;
+    width: 35%;
+    padding: 7px;
+    margin: 20px 10px;
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    div.registro{
+        width: 100%;
+    }
+    div.registro header{
+
+    }
+    div.registro header nav{
+        width: 100%;
+        padding: 0;
+    }
+    div.registro header nav ul{
+        width: 100%;
+        padding: 0;
+    }
+    div.registro header nav ul li{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media (min-width: 700px) and (max-width: 1024px){
+    div.registro{
+        width: 100%;
+    }
+    div.registro header nav{
+        width: 100%;
+        padding: 0;
+    }
+    div.registro header nav ul{
+        width: 100%;
+        padding: 0;
+    }
+    div.registro header nav ul li{
+        width: 100%;
+        padding: 0;
+    }
+}
